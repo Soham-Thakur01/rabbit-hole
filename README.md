@@ -1,16 +1,46 @@
-# React + Vite
+# Rabbit Hole
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Rabbit Hole is my personal corner of the internet—a place for cinema, coding projects, thoughts, and strange topics I find interesting.
 
-Currently, two official plugins are available:
+## Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://rabbit-hole-neon-psi.vercel.app/
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Multi-page React website
+- Playful retro-internet aesthetic
+- Draggable emojis and objects
+- Movie and anime review filters
+- Letterboxd and Moctale profile integration
+- Interactive thought cards
+- Random Rabbit Hole selector
+- Responsive mobile navigation
+- Custom 404 page
+- Automatic Vercel deployment through GitHub
 
-## Expanding the ESLint configuration
+## Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Home
+- About Me
+- Cinema
+- Coding
+- What’s on My Mind
+- Rabbit Holes
+
+## Technologies
+
+- React
+- Vite
+- JavaScript
+- React Router
+- CSS
+- Git and GitHub
+- Vercel
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Soham-Thakur01/rabbit-hole.git
