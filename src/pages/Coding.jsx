@@ -85,6 +85,20 @@ function Coding() {
                   <li key={technology}>{technology}</li>
                 ))}
               </ul>
+
+              <div className="project-link">
+                {project.repositoryUrl ? (
+                  <a
+                    href={project.repositoryUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View repository ↗
+                  </a>
+                ) : (
+                  <span>Repository not public yet</span>
+                )}
+              </div>
             </article>
           ))}
         </div>

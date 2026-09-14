@@ -1660,3 +1660,34 @@ main:not(.home-page) section {
     color: var(--green);
   }
 }
+.review-card-top a {
+  color: var(--green);
+  transition:
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.review-card-top a:hover {
+  color: var(--blue);
+  transform: translateY(-2px);
+}
+.project-link {
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--border);
+  font-family: 'Courier New', monospace;
+  font-size: 0.78rem;
+}
+
+.project-link a {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.project-link a:hover {
+  color: var(--blue);
+}
+
+.project-link span {
+  color: var(--muted);
+}

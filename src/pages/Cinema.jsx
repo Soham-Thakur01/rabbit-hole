@@ -78,9 +78,17 @@ function Cinema() {
           {visibleReviews.map((review) => (
             <article className="review-card" key={review.id}>
               <div className="review-card-top">
-                <span>{review.category}</span>
-                <span>{review.source}</span>
-              </div>
+  <span>{review.category}</span>
+
+  <a
+    href={review.sourceUrl}
+    target="_blank"
+    rel="noreferrer"
+    aria-label={`Open Soham's ${review.source} profile`}
+  >
+    {review.source} ↗
+  </a>
+</div>
 
               <div>
                 <h3>{review.title}</h3>

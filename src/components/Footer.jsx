@@ -28,6 +28,21 @@ function Footer() {
             rel="noreferrer"
           >
             GitHub ↗
+            <a
+  href="https://letterboxd.com/soham_st/"
+  target="_blank"
+  rel="noreferrer"
+>
+  Letterboxd ↗
+</a>
+
+<a
+  href="https://www.moctale.in/u/soham0"
+  target="_blank"
+  rel="noreferrer"
+>
+  Moctale ↗
+</a>
           </a>
 
           <a href="#top">Back to top ↑</a>

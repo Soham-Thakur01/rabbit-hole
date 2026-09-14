@@ -8,6 +8,7 @@ export const projects = [
       'A guided platform helping artisans create product listings using images, voice and AI.',
     technologies: ['React', 'JavaScript', 'Supabase', 'Gemini AI'],
     status: 'In development',
+    repositoryUrl: 'https://github.com/Soham-Thakur01/kalakriti-sih-2026',
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const projects = [
       'A digital healthcare project built around medicine tracking and accessible patient tools.',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
     status: 'Prototype',
+    repositoryUrl: null,
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const projects = [
       'A simple way to understand where money goes and build better financial habits.',
     technologies: ['JavaScript', 'React', 'CSS'],
     status: 'Concept',
+    repositoryUrl: null,
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const projects = [
       'A visual interface experiment built around movies, discovery and clean interactions.',
     technologies: ['React', 'Vite', 'CSS'],
     status: 'UI project',
+    repositoryUrl: null,
   },
 ]
 
