@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import DraggableEmoji from '../components/DraggableEmoji'
-import { cinemaReviews, featuredCinema } from '../data/cinema'
+import {
+  cinemaReviews,
+  cinemaStats,
+  featuredCinema,
+} from '../data/cinema'
 
 function Cinema() {
   const [activeFilter, setActiveFilter] = useState('All')
@@ -53,6 +57,32 @@ function Cinema() {
         />
       </section>
 
+      <section className="cinema-stats-section">
+        <div className="cinema-stats-heading">
+          <div>
+            <p className="section-label">September 2026 snapshot</p>
+            <h2>Life in films</h2>
+          </div>
+
+          <a
+            href="https://letterboxd.com/soham_st/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Letterboxd ↗
+          </a>
+        </div>
+
+        <div className="cinema-stats-grid">
+          {cinemaStats.map((stat) => (
+            <article key={stat.label}>
+              <strong>{stat.value}</strong>
+              <span>{stat.label}</span>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <section className="reviews-section">
         <div className="reviews-heading">
           <div>
@@ -78,17 +108,17 @@ function Cinema() {
           {visibleReviews.map((review) => (
             <article className="review-card" key={review.id}>
               <div className="review-card-top">
-  <span>{review.category}</span>
+                <span>{review.category}</span>
 
-  <a
-    href={review.sourceUrl}
-    target="_blank"
-    rel="noreferrer"
-    aria-label={`Open Soham's ${review.source} profile`}
-  >
-    {review.source} ↗
-  </a>
-</div>
+                <a
+                  href={review.sourceUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`Open Soham's ${review.source} profile`}
+                >
+                  {review.source} ↗
+                </a>
+              </div>
 
               <div>
                 <h3>{review.title}</h3>

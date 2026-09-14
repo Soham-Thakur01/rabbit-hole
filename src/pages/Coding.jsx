@@ -87,18 +87,31 @@ function Coding() {
               </ul>
 
               <div className="project-link">
-                {project.repositoryUrl ? (
-                  <a
-                    href={project.repositoryUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View repository ↗
-                  </a>
-                ) : (
-                  <span>Repository not public yet</span>
-                )}
-              </div>
+  {project.repositoryUrl && (
+    <a
+      href={project.repositoryUrl}
+      target="_blank"
+      rel="noreferrer"
+    >
+      Repository ↗
+    </a>
+  )}
+
+  {project.liveUrl && (
+    <a
+      href={project.liveUrl}
+      target="_blank"
+      rel="noreferrer"
+      className="live-project-link"
+    >
+      Live website ↗
+    </a>
+  )}
+
+  {!project.repositoryUrl && !project.liveUrl && (
+    <span>Repository not public yet</span>
+  )}
+</div>
             </article>
           ))}
         </div>

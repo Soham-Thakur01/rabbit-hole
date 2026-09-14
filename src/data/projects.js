@@ -9,6 +9,7 @@ export const projects = [
     technologies: ['React', 'JavaScript', 'Supabase', 'Gemini AI'],
     status: 'In development',
     repositoryUrl: 'https://github.com/Soham-Thakur01/kalakriti-sih-2026',
+    liveUrl: null,
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const projects = [
     technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
     status: 'Prototype',
     repositoryUrl: null,
+    liveUrl: null,
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ export const projects = [
     technologies: ['JavaScript', 'React', 'CSS'],
     status: 'Concept',
     repositoryUrl: null,
+    liveUrl: null,
   },
   {
     id: 4,
@@ -42,6 +45,19 @@ export const projects = [
     technologies: ['React', 'Vite', 'CSS'],
     status: 'UI project',
     repositoryUrl: null,
+    liveUrl: null,
+  },
+    {
+    id: 5,
+    name: 'Rabbit Hole',
+    number: '05',
+    type: 'Personal internet space',
+    description:
+      'An interactive personal website for cinema, coding, thoughts and curiosities—with draggable objects and a playful retro aesthetic.',
+    technologies: ['React', 'Vite', 'React Router', 'Vercel'],
+    status: 'Live',
+    repositoryUrl: 'https://github.com/Soham-Thakur01/rabbit-hole',
+    liveUrl: 'https://rabbit-hole-neon-psi.vercel.app/',
   },
 ]
 

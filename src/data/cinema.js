@@ -53,3 +53,17 @@ export const cinemaReviews = [
       'Stylish chaos, incredible fights and memorable characters. It looks spectacular, but the emotional weight behind its action is what makes it hit.',
   },
 ]
+export const cinemaStats = [
+  {
+    label: 'Films logged',
+    value: '506',
+  },
+  {
+    label: 'Watched in 2026',
+    value: '51',
+  },
+  {
+    label: 'Letterboxd lists',
+    value: '3',
+  },
+]
